@@ -1,0 +1,15 @@
+1、使用 git clone 命令 + 项目仓库地址  eg: git clone https://gitee.com/zzzzzed/ChinessChess.git . 如果本地已经下载了该项目则跳过该步骤。
+
+　 注意使用 git clone 首次检出需要输入用户名及密码。
+
+2、使用 git status 命令查看当前项目修改情况。
+
+3、使用 git add 添加本地修改过或者增加的文件。eg： git add test.txt
+
+4、使用 git commit -m "备注信息" 传输本地add的文件。
+
+5、最后再次 git status 命令查看文件提交是否成功。
+
+ 
+
+细节：每次提交更新之前最好使用命令git pull将远程代码更新下来，如果有冲突，需要将冲突修改后再通过上面的方式提交。
